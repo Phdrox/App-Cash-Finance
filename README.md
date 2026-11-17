@@ -148,8 +148,8 @@ Em caso de exceção, retorna `{"error":"Erro ao criar fluxo"}`.
 ### GET `/data/all` — Listar lançamentos do usuário
 
 Retorna todos os lançamentos associados ao usuário autenticado. Cada item
-inclui os dados abaixo; `create_at` é convertido para texto e pode ser `null`.
-
+inclui os dados abaixo; `create_at` é convertido para texto e pode ser `null`,
+`type_data` é o tipo de fluxo gasto:`false` e ganho:`true`.
 **Resposta**
 
 ```json
